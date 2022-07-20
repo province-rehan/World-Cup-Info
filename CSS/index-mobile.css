@@ -41,6 +41,7 @@
 
     }
 
+
     .banner-info {
 
         height: auto;
@@ -78,6 +79,7 @@
         padding-bottom: 0px;
     }
 
+
     .blog {
         margin-top: 80px;
         display: flex;
@@ -92,10 +94,22 @@
     }
 
 
+    .nav-web {
+
+        padding-left: 10px;
+        background-color: white;
+        color: black;
+        margin-bottom: 40px;
+        margin-bottom: 40px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.2s;
+        cursor: pointer;
 
 
 
-    .nav-web {}
+    }
 
     .news-grid-container {
         display: grid;

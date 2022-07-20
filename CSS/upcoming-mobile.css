@@ -12,7 +12,7 @@
 
         width: 90%;
         height: auto;
-        /* margin: auto; */
+
         font-family: 'Kantumruy Pro', sans-serif;
         font-family: 'Poppins', sans-serif;
         padding-top: 50px;
@@ -27,14 +27,14 @@
         display: flex;
         flex-direction: column;
         column-gap: 5px;
-        /* flex-direction: column; */
+
         background-color: black;
         color: aliceblue;
         width: 100%;
         height: auto;
         align-items: space-between;
         border-radius: 30px;
-        /* padding-bottom: 30px; */
+
 
 
     }
@@ -84,6 +84,23 @@
 
     .nav {
         align-items: center;
+
+    }
+
+    .nav-web {
+
+        padding-left: 10px;
+        background-color: white;
+        color: black;
+        margin-bottom: 40px;
+        margin-bottom: 40px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.2s;
+        cursor: pointer;
+
+
 
     }
 
