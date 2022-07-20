@@ -102,17 +102,20 @@
 
     color: white;
     background-color: black;
-    width: 30%;
+    width: 250px;
+    max-width: 250px;
+    min-width: 250px;
     height: 312px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
 
-
-
-
 }
+
+
+
+
 
 .nav-web {
 
@@ -125,8 +128,18 @@
 
     border-radius: 10px;
     text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
 
 }
+
+.nav-web:hover {
+
+    transform: scale(1.1);
+}
+
+
+
 
 .nav-web a {
     text-decoration: none;
@@ -165,9 +178,16 @@
     border-radius: 10px;
     margin-left: 30px;
     border: 1px solid lightgrey;
+    transition: transform 0.2s;
+}
 
+
+.match:hover {
+
+    transform: scale(1.1);
 
 }
+
 
 .team {
     display: flex;
@@ -259,10 +279,21 @@ hr {
     display: flex;
     justify-content: center;
     column-gap: 100px;
+
 }
+
+
 
 .social-media i {
 
     font-size: 30px;
-    color: blue;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.social-media i:hover {
+
+    transform: scale(2);
+    color: #da185f;
+
 }
