@@ -110,7 +110,7 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        align-items: center;
+
         column-gap: 60px;
     }
 
@@ -130,6 +130,39 @@
         border: 1px solid #E8E8E8;
 
     }
+
+    #nav-web-blog {
+
+        background-color: #DD0000;
+
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #nav-web-all {
+        padding-right: 15px;
+        padding-left: 15px;
+
+
+    }
+
+
+    #nav-web-upcomming {
+
+        margin-top: 0px;
+
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    .nav-web a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
 
 
 

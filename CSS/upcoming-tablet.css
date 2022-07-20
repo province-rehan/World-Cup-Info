@@ -145,6 +145,31 @@
         column-gap: 60px;
     }
 
+    #nav-web-blog {
+
+
+
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #nav-web-all {
+        padding-right: 15px;
+        padding-left: 15px;
+
+
+    }
+
+
+    #nav-web-upcomming {
+
+        margin-top: 0px;
+
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
 
     .match-grid {
         display: grid;

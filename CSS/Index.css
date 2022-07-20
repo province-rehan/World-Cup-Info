@@ -121,10 +121,6 @@
     min-width: 300px;
 
 
-
-
-
-
     height: 312px;
     padding: 30px;
     display: flex;
@@ -161,6 +157,11 @@
 #nav-web-blog {
 
     background-color: #DD0000
+}
+
+#nav-web-all {
+    padding-left: 15px;
+    padding right: 15px;
 }
 
 #nav-web-upcomming {
