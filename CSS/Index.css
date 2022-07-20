@@ -72,9 +72,17 @@
     padding: 15px;
     border-radius: 7px;
     color: white;
-
+    cursor: pointer;
+    transition: transform 0.3s;
 
 }
+
+.banner-btn:hover {
+
+    transform: scale(1.2);
+    background-color: #810808;
+}
+
 
 /*-------------
  Banner Css End
@@ -133,8 +141,15 @@
 
     border-radius: 10px;
     text-align: center;
-
+    transition: transform 0.2s;
+    cursor: pointer;
 }
+
+.nav-web:hover {
+
+    transform: scale(1.1);
+}
+
 
 
 #nav-web-blog {
