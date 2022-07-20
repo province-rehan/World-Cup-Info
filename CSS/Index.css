@@ -61,8 +61,20 @@
     justify-content: center;
     padding-top: 33px;
     padding-right: 70px;
+    transition: transform 0.3s;
 
 }
+
+/* .banner-image:hover {
+
+
+    background: url(../images/bn-img1.png);
+
+} */
+
+/* #banner-image:hover {
+    content: url(../images/bn-img1.png);
+} */
 
 
 .banner-btn {
@@ -382,6 +394,13 @@ hr {
     font-size: 16px;
     padding-top: 30px;
     padding-bottom: 25px;
+
+}
+
+
+hr {
+    color: #B9B9B9;
+    width: 75%;
 
 }
 
