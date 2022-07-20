@@ -182,6 +182,17 @@
     text-align: center;
 }
 
+.match-info h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.match-info h4 {
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
 
 
 
