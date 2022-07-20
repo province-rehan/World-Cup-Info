@@ -29,14 +29,14 @@
     .banner {
         display: flex;
         column-gap: 5px;
-        /* flex-direction: column; */
+
         background-color: black;
         color: aliceblue;
         width: 100%;
         height: auto;
         align-items: space-between;
         border-radius: 30px;
-        /* padding-bottom: 30px; */
+
 
 
     }
@@ -184,6 +184,33 @@
 
 
     }
+
+
+
+    /* View Button CSS */
+
+    .view button {
+
+        visibility: visible;
+        position: absolute;
+        left: 250px;
+        color: #E8E8E8;
+
+        background-color: #dc2413;
+
+        border-radius: 5px;
+        max-width: 131px;
+        width: 131px;
+        height: 47px;
+        border: none;
+        margin: auto;
+        margin-top: 50px;
+        cursor: pointer;
+
+
+    }
+
+
 
 
 

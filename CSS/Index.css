@@ -15,9 +15,9 @@
     padding-top: 50px;
 }
 
-/*-------------
+/*----------------------------
  Banner Css Start
- ---------------*/
+ ----------------------------*/
 
 .banner {
     display: flex;
@@ -159,10 +159,6 @@
     background-color: #DD0000
 }
 
-#nav-web-all {
-    padding-left: 15px;
-    padding right: 15px;
-}
 
 #nav-web-upcomming {
 
@@ -265,7 +261,7 @@
 
     display: flex;
     flex-direction: left;
-    /* flex column-gap: 40px; */
+
     padding-left: 10px;
 
 
@@ -287,9 +283,7 @@
 .blog-time img {
     height: 27px;
     width: 27px;
-    /* left: 3px;
-    top: 3px; */
-    /* border-radius: 0px; */
+
 
 }
 
@@ -311,9 +305,7 @@
 .blog-msg img {
     height: 27px;
     width: 27px;
-    /* left: 3px;
-    top: 3px; */
-    /* border-radius: 0px; */
+
 
 }
 
@@ -329,7 +321,14 @@
 
 
 
+/* View Button CSS */
 
+
+.view {
+
+    visibility: hidden;
+
+}
 
 
 /*--------------------- 

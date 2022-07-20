@@ -91,6 +91,10 @@
 
     }
 
+
+
+
+
     .nav-web {}
 
     .news-grid-container {
@@ -144,12 +148,8 @@
         width: 90%;
         margin: auto;
 
-        flex-wrap: wrap;
+        flex-direction: column;
     }
-
-
-
-
 
 
 
